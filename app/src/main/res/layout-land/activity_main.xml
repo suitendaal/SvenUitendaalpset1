@@ -152,22 +152,6 @@
                 android:orientation="vertical">
 
                 <CheckBox
-                    android:id="@+id/checkBoxMouth"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:checked="true"
-                    android:onClick="onCheckboxClicked"
-                    android:text="Mouth" />
-
-                <CheckBox
-                    android:id="@+id/checkBoxMustache"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:checked="true"
-                    android:onClick="onCheckboxClicked"
-                    android:text="Mustache" />
-
-                <CheckBox
                     android:id="@+id/checkBoxHat"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -182,6 +166,22 @@
                     android:checked="true"
                     android:onClick="onCheckboxClicked"
                     android:text="Nose" />
+
+                <CheckBox
+                    android:id="@+id/checkBoxMouth"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:onClick="onCheckboxClicked"
+                    android:text="Mouth" />
+
+                <CheckBox
+                    android:id="@+id/checkBoxMustache"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:onClick="onCheckboxClicked"
+                    android:text="Mustache" />
 
                 <CheckBox
                     android:id="@+id/checkBoxShoes"
